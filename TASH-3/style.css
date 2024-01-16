@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.5s;
+    background-image: url(https://www.pixground.com/wp-content/uploads/2023/05/Windows-11-SE-Colorful-Abstract-Background-4K-Wallpaper-1536x864.webp);
+}
+
+.clock-container {
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.clock {
+    font-size: 4em;
+    color: #333;
+    margin: 20px 0;
+}
+
+.dark-mode .clock-container {
+    background-color: #333;
+}
+
+.dark-mode h1, .dark-mode .clock {
+    color: #fff;
+}
+
